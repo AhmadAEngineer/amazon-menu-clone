@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, serif;
+}
+
+.top-menu {
+    height: 60px;
+    background-color: #0f1111;
+    width: 100%;
+    display: flex;
+    color: brown;
+    text-align: center;
+    align-items: center;
+
+}
+
+.logo {
+    height: 50px;
+    width: 110px;
+    background-image: url("images/amazon_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Second box*/
+.deliver-paragraph {
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.pakistan-paragraph {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.deliver-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.option {
+    display: flex;
+    margin-left: 10px;
+}
+
+#All {
+    padding: 8px;
+}
+
+#search {
+    padding: 8px 150px 8px 8px;
+}
+
+#button {
+    padding: 8px 10px 8px 10px;
+    background-color: orange;
+    border: 2px solid transparent;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: -5px;
+}
+
+.effect:hover {
+    border: 1px solid orange;
+}
+
+.countries {
+    margin-left: 10px;
+    color: red;
+}
+
+#EN {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.sign-in {
+    padding-left: 25px;
+}
+
+#log-in {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#Hello {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+}
+
+#return {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+}
+
+#order {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.return-class {
+    margin-left: 20px;
+}
+
+.cart-icon {
+    color: white;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    width: 1200px;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    margin-top: 10px;
+}
